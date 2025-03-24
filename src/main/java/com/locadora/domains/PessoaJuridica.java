@@ -17,6 +17,10 @@ public class PessoaJuridica extends Pessoa{
     @OneToMany(mappedBy = "pessoaJuridica")
     private List<OrdemServico> ordemServico = new ArrayList<>();
 
+    @ManyToOne
+    @JoinColumn(name="pessoaJuridica")
+    private PessoaJuridica pessoaJuridica;
+
     public PessoaJuridica(Long id, String nomeCompleto, String cpf, String email, String senha) {
         super(id, nomeCompleto, cpf, email, senha);
         addTipoPessoa(TipoPessoa.JURIDICA);
