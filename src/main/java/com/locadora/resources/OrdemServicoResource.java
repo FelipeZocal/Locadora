@@ -25,31 +25,31 @@ public class OrdemServicoResource {
     }
 
     @GetMapping(value="/{id}")//https://localhost:8080/ordemservico/1
-    public ResponseEntity<OrdemServicoDTO> findById(UUID id) {
+    public ResponseEntity<OrdemServicoDTO> findById(@PathVariable UUID id) {
         OrdemServico obj = this.ordemServicoService.findById(id);
             return ResponseEntity.ok().body(new OrdemServicoDTO(obj));
     }
 
-    @GetMapping(value="/{titulo}")//https://localhost:8080/ordemservico/titulo1
-    public ResponseEntity<OrdemServicoDTO> findByTituloOS(String tituloOS) {
+    @GetMapping(value="/titulo/{tituloOS}")//https://localhost:8080/ordemservico/titulo1
+    public ResponseEntity<OrdemServicoDTO> findByTituloOS(@PathVariable String tituloOS) {
         OrdemServico obj = this.ordemServicoService.findByTituloOS(tituloOS);
         return ResponseEntity.ok().body(new OrdemServicoDTO(obj));
     }
 
     @PostMapping
-    public ResponseEntity<OrdemServicoDTO> create(OrdemServicoDTO objDto){
+    public ResponseEntity<OrdemServicoDTO> create(@RequestBody OrdemServicoDTO objDto){
         OrdemServico newObj = ordemServicoService.create(objDto);
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(newObj.getId()).toUri();
         return ResponseEntity.created(uri).build();
     }
 
     @PutMapping(value="/{id}")
-    public ResponseEntity<OrdemServicoDTO> update(UUID id, OrdemServicoDTO objDto){
+    public ResponseEntity<OrdemServicoDTO> update(@PathVariable UUID id, @RequestBody OrdemServicoDTO objDto){
         OrdemServico Obj = ordemServicoService.update(id, objDto);
         return ResponseEntity.ok().body(new OrdemServicoDTO(Obj));
     }
     @DeleteMapping(value="/{id}")
-    public ResponseEntity<OrdemServicoDTO> delete(UUID id){
+    public ResponseEntity<OrdemServicoDTO> delete(@PathVariable UUID id){
         ordemServicoService.delete(id);
         return ResponseEntity.noContent().build();
     }
