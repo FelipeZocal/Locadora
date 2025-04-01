@@ -33,6 +33,9 @@ public class DBService {
     @Autowired
     private OrdemServicoRepository ordemServicoRepo;
 
+    @Autowired
+    private Carro2Repository carro2Repo;
+
     public void initDB(){
 
         //  Pessoa Juridica
@@ -63,6 +66,10 @@ public class DBService {
         Carro carro5 = new Carro(null,"Honda","Civic","Branco",2020, new BigDecimal("350.50"),LocalDate.now(),"CIVIC",2000,4,"5555",locadora1, Conservacao.BOM);
         Carro carro6 = new Carro(null, "Toyota", "Corolla", "Preto", 2016, new BigDecimal("340.00"), LocalDate.now(), "COROLLA", 1100, 4, "4444", locadora2, Conservacao.BOM);
 
+
+        //Carro 2
+        Carro2 carroteste1 = new Carro2(null, "prata 4 portas", LocalDate.now(), new BigDecimal(55.000), "Astolfo Silva", "111.222.333-44");
+        Carro2 carroteste2 = new Carro2(null, "branco 2 portas", LocalDate.now(), new BigDecimal(32.000), "Rodrigo Bueno", "444.333.222-11");
         pessoaJuridicaRepo.save(pessoaJuridica1);
         pessoaJuridicaRepo.save(pessoaJuridica2);
 
@@ -84,6 +91,9 @@ public class DBService {
         carroRepo.save(carro4);
         carroRepo.save(carro5);
         carroRepo.save(carro6);
+
+        carro2Repo.save(carroteste1);
+        carro2Repo.save(carroteste2);
     }
 
 

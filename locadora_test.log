@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2025-03-24T15:31:30.155-03:00  INFO 7340 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.12 with PID 7340 (D:\Projetos 2025\Locadora\target\classes started by FELIPE in D:\Projetos 2025\Locadora)
 2025-03-24T15:31:30.161-03:00  INFO 7340 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "test"
 2025-03-24T15:31:30.220-03:00  INFO 7340 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
@@ -18,6 +19,28 @@
 2025-03-24T15:31:32.165-03:00  INFO 7340 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
 2025-03-24T15:31:32.446-03:00  INFO 7340 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
 2025-03-24T15:31:32.523-03:00  INFO 7340 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+=======
+2025-03-27T20:42:52.957-03:00  INFO 4348 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.12 with PID 4348 (E:\Projetos2025\Locadora\target\classes started by FELIPE in E:\Projetos2025\Locadora)
+2025-03-27T20:42:52.982-03:00  INFO 4348 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "test"
+2025-03-27T20:42:53.128-03:00  INFO 4348 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-27T20:42:53.128-03:00  INFO 4348 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-27T20:42:54.322-03:00  INFO 4348 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27T20:42:54.429-03:00  INFO 4348 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 8 JPA repository interfaces.
+2025-03-27T20:42:55.976-03:00  INFO 4348 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T20:42:56.008-03:00  INFO 4348 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T20:42:56.008-03:00  INFO 4348 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-03-27T20:42:56.071-03:00  INFO 4348 --- [Locadora] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T20:42:56.074-03:00  INFO 4348 --- [Locadora] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2927 ms
+2025-03-27T20:42:56.134-03:00  INFO 4348 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-27T20:42:56.458-03:00  INFO 4348 --- [Locadora] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_locadora user=SA
+2025-03-27T20:42:56.465-03:00  INFO 4348 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-27T20:42:56.480-03:00  INFO 4348 --- [Locadora] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_locadora'
+2025-03-27T20:42:56.799-03:00  INFO 4348 --- [Locadora] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27T20:42:56.942-03:00  INFO 4348 --- [Locadora] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-03-27T20:42:57.037-03:00  INFO 4348 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-27T20:42:57.594-03:00  INFO 4348 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-27T20:42:57.753-03:00  INFO 4348 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+>>>>>>> 1e784693a2b711060801cf3b48f9d4fdcf88dc1f
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 2.3.232
@@ -25,6 +48,7 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
+<<<<<<< HEAD
 2025-03-24T15:31:33.546-03:00  INFO 7340 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
 2025-03-24T15:31:33.594-03:00  INFO 7340 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
 2025-03-24T15:31:34.101-03:00  WARN 7340 --- [Locadora] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
@@ -40,3 +64,136 @@
 2025-03-24T15:41:48.564-03:00  WARN 7340 --- [Locadora] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
 2025-03-24T15:41:48.564-03:00  INFO 7340 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-03-24T15:41:48.566-03:00  INFO 7340 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+=======
+2025-03-27T20:42:59.305-03:00  INFO 4348 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-27T20:42:59.402-03:00  INFO 4348 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:43:00.018-03:00  WARN 4348 --- [Locadora] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testConfig': Unsatisfied dependency expressed through field 'dbService': Error creating bean with name 'DBService': Unsatisfied dependency expressed through field 'carro2Repo': Error creating bean with name 'carro2Repository' defined in com.locadora.repositories.Carro2Repository defined in @EnableJpaRepositories declared on LocadoraApplication: Not a managed type: class com.locadora.domains.Carro2
+2025-03-27T20:43:00.018-03:00  INFO 4348 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:43:00.034-03:00  WARN 4348 --- [Locadora] [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-03-27T20:43:00.034-03:00  INFO 4348 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-27T20:43:00.034-03:00  INFO 4348 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-03-27T20:43:00.050-03:00  INFO 4348 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-27T20:43:00.066-03:00  INFO 4348 --- [Locadora] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-03-27T20:43:00.098-03:00 ERROR 4348 --- [Locadora] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testConfig': Unsatisfied dependency expressed through field 'dbService': Error creating bean with name 'DBService': Unsatisfied dependency expressed through field 'carro2Repo': Error creating bean with name 'carro2Repository' defined in com.locadora.repositories.Carro2Repository defined in @EnableJpaRepositories declared on LocadoraApplication: Not a managed type: class com.locadora.domains.Carro2
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1435) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.0.jar:6.2.0]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.0.jar:3.4.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.0.jar:3.4.0]
+	at com.locadora.Locadora.LocadoraApplication.main(LocadoraApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.4.0.jar:3.4.0]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'DBService': Unsatisfied dependency expressed through field 'carro2Repo': Error creating bean with name 'carro2Repository' defined in com.locadora.repositories.Carro2Repository defined in @EnableJpaRepositories declared on LocadoraApplication: Not a managed type: class com.locadora.domains.Carro2
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:788) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:768) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:146) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:509) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1435) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1626) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1514) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 27 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'carro2Repository' defined in com.locadora.repositories.Carro2Repository defined in @EnableJpaRepositories declared on LocadoraApplication: Not a managed type: class com.locadora.domains.Carro2
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:288) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1626) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1514) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:785) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 41 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.locadora.domains.Carro2
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100) ~[hibernate-core-6.6.2.Final.jar:6.6.2.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:386) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356) ~[spring-data-commons-3.4.0.jar:3.4.0]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.4.0.jar:3.4.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1849) ~[spring-beans-6.2.0.jar:6.2.0]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-6.2.0.jar:6.2.0]
+	... 51 common frames omitted
+
+2025-03-27T20:44:51.092-03:00  INFO 15128 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Starting LocadoraApplication using Java 17.0.12 with PID 15128 (E:\Projetos2025\Locadora\target\classes started by FELIPE in E:\Projetos2025\Locadora)
+2025-03-27T20:44:51.097-03:00  INFO 15128 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : The following 1 profile is active: "test"
+2025-03-27T20:44:51.212-03:00  INFO 15128 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-03-27T20:44:51.212-03:00  INFO 15128 --- [Locadora] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-03-27T20:44:52.162-03:00  INFO 15128 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-27T20:44:52.240-03:00  INFO 15128 --- [Locadora] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 8 JPA repository interfaces.
+2025-03-27T20:44:53.493-03:00  INFO 15128 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-27T20:44:53.525-03:00  INFO 15128 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-27T20:44:53.525-03:00  INFO 15128 --- [Locadora] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2025-03-27T20:44:53.588-03:00  INFO 15128 --- [Locadora] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-27T20:44:53.588-03:00  INFO 15128 --- [Locadora] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2376 ms
+2025-03-27T20:44:53.635-03:00  INFO 15128 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-03-27T20:44:53.858-03:00  INFO 15128 --- [Locadora] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bd_locadora user=SA
+2025-03-27T20:44:53.874-03:00  INFO 15128 --- [Locadora] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-03-27T20:44:53.889-03:00  INFO 15128 --- [Locadora] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bd_locadora'
+2025-03-27T20:44:54.048-03:00  INFO 15128 --- [Locadora] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-27T20:44:54.190-03:00  INFO 15128 --- [Locadora] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2025-03-27T20:44:54.242-03:00  INFO 15128 --- [Locadora] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-27T20:44:54.652-03:00  INFO 15128 --- [Locadora] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-27T20:44:54.763-03:00  INFO 15128 --- [Locadora] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-27T20:44:56.189-03:00  INFO 15128 --- [Locadora] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-27T20:44:56.268-03:00  INFO 15128 --- [Locadora] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:44:57.110-03:00  WARN 15128 --- [Locadora] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-27T20:44:57.672-03:00  INFO 15128 --- [Locadora] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-27T20:44:57.714-03:00  INFO 15128 --- [Locadora] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-27T20:44:57.714-03:00  INFO 15128 --- [Locadora] [restartedMain] c.locadora.Locadora.LocadoraApplication  : Started LocadoraApplication in 7.282 seconds (process running for 7.876)
+2025-03-27T20:45:14.858-03:00  INFO 15128 --- [Locadora] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-27T20:45:15.061-03:00  INFO 15128 --- [Locadora] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-27T20:45:15.077-03:00  INFO 15128 --- [Locadora] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-27T20:45:15.092-03:00  WARN 15128 --- [Locadora] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-03-27T20:45:15.092-03:00  INFO 15128 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-03-27T20:45:15.092-03:00  INFO 15128 --- [Locadora] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+>>>>>>> 1e784693a2b711060801cf3b48f9d4fdcf88dc1f
