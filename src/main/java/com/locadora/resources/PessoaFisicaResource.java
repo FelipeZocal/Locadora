@@ -25,13 +25,13 @@ public class PessoaFisicaResource {
     }
 
     @GetMapping(value = "/{id}")//http://localhost:8080/pessoaFisicaa/1
-    public ResponseEntity<PessoaFisicaDTO> findById(Long id){
+    public ResponseEntity<PessoaFisicaDTO> findById(@PathVariable Long id){
         PessoaFisica obj = this.pessoaFisicaService.findById(id);
         return ResponseEntity.ok().body(new PessoaFisicaDTO(obj));
     }
 
     @GetMapping(value = "/email/{email}")//http://localhost:8080/pessoaFisica/email@email.com
-    public ResponseEntity<PessoaFisicaDTO> findByEmail(String email){
+    public ResponseEntity<PessoaFisicaDTO> findByEmail(@PathVariable String email){
         PessoaFisica obj = this.pessoaFisicaService.findByEmail(email);
         return ResponseEntity.ok().body(new PessoaFisicaDTO());
     }

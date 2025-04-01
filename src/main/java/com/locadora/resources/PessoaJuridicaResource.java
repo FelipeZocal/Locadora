@@ -26,13 +26,13 @@ public class PessoaJuridicaResource {
     }
 
     @GetMapping(value = "/{id}")//http://localhost:8080/pessoaJuridica/1
-    public ResponseEntity<PessoaJuridicaDTO> findById(Long id){
+    public ResponseEntity<PessoaJuridicaDTO> findById(@PathVariable Long id){
         PessoaJuridica obj = this.pessoaJuridicaService.findById(id);
         return ResponseEntity.ok().body(new PessoaJuridicaDTO(obj));
     }
 
     @GetMapping(value = "/email/{email}")//http://localhost:8080/pessoaJuridica/email@email.com
-    public ResponseEntity<PessoaJuridicaDTO> findByEmail(String email){
+    public ResponseEntity<PessoaJuridicaDTO> findByEmail(@PathVariable String email){
         PessoaJuridica obj = this.pessoaJuridicaService.findByEmail(email);
         return ResponseEntity.ok().body(new PessoaJuridicaDTO());
     }
